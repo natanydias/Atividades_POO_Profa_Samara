@@ -1,4 +1,4 @@
-package br.exercicio02;
+package br.exercicio03;
 
 public class Pessoa {
     private String nome;
