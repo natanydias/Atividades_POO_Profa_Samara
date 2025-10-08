@@ -1,9 +1,15 @@
-package br.unama.universidade;
+public class Professor {
+    private String nome;
 
-public class Professor extends Pessoa{
-    private String especialidade;
-    private double salario;
-    void receberAum() {
+    public Professor(String nome) {
+        this.nome = nome;
+    }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }
